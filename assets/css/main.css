@@ -1,0 +1,257 @@
+/* main color: #0e54ae */
+/* color-dig: from  #030a32 to #321d3b*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.bg-light-gray{
+    background-color: #f1f1f1!important;
+}
+
+.color-main-blue{
+    color: #0e54ae!important;
+}
+
+.border-blue{
+    border-color: #0e54ae!important;
+}
+
+.bg-main-blue{
+    background-color: #0e54ae!important;
+}
+
+
+ul.social-list {
+    margin-bottom: 0 !important;
+}
+
+ul.social-list>li {
+    display: inline-flex;
+    min-width: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+ul.social-list>li>a {
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+ul.social-list>li>a>i {
+    color: black;
+}
+
+.logo {
+    width: 256px;
+    height: 100px;
+    background: url(/assets/images/logo.JPG) top right no-repeat;
+}
+
+.appointment,
+.main-nav-bg{
+    background-color: #0d53ad!important;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: large;
+    color: white !important;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+.overlay-white{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.overlay-blue{
+    background-color: #26345ca2;
+}
+
+.wide-img {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.headinImg{
+    background-image: url(../images/wide-1.JPG);
+}
+
+.servicesImg{
+    background-image: url(../images/wide-2.JPG);
+}
+
+.offers{
+    background-image: url(../images/wide-3.JPG);
+}
+
+.footer{
+    background-image: url(../images/footer-wide.png);
+}
+
+
+.text-slide {
+    height: 100%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.reserveing {
+    margin-top: -5%;
+}
+
+.slide-img {
+    margin: auto;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.offer-img{
+    height: 170px;
+}
+
+.quote-card {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  padding: 30px;
+}
+.quote-card p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.quote-card.blue-card {
+  background: #0e54ae;
+  color: #ffffff;
+  box-shadow: 2px 2px 2px rgba(34, 34, 34, 0.5), 0 2px 4px rgba(34, 34, 34, 0.5);
+}
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #5FAAFF;
+}
+
+.qoute {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.qoute-to-top {
+    margin-top: -30px;
+}
+
+.slideBtn {
+    background-color: gray !important;
+    height: 8px !important;
+    width: 50px !important;
+}
+
+
+.slideBtn.active {
+    background-color: #0e54ae !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 450px;
+    width: 100%;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 450px;
+    width: 100%;
+}
+.contact-icon {
+    color: white;
+    font-size: 2em;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 14px;
+}
+
+.contact-icon-mail {
+    background-color: #e0ac0e;
+}
+
+.contact-icon-whatsapp {
+    background-color: #049225;
+}
+
+.contact-icon-location {
+    background-color: #0e54ae;
+}
+
+@media (min-width: 940px) {
+    .qoute-section {
+        height: 70vh !important;
+    }
+}
+
+@media (max-width: 940px) {
+    .qoute-section {
+        height: 85vh !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .qoute-section {
+        height: 120vh !important;
+    }
+}
+
+.footer-list>li>a>i {
+    color: white !important;
+    background-color: #1462c7;
+    padding: 10px;
+    margin-left: 0 !important;
+}
+
+.footer-list>li>a {
+    padding: 0 !important;
+}
+
+#toTopBtn {
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    left: 30px;
+    z-index: 1000;
+    background-color: #1462c7;
+}
+
+.footer-img {
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    margin-top: -20px;
+}
