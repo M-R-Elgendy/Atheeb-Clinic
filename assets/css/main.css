@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 *{
     font-family: 'Tajawal', sans-serif;
+    transition: 0.3s;
 }
 
 .bg-light-gray{
@@ -22,6 +23,16 @@
     background-color: #0e54ae!important;
 }
 
+.appointment:hover {
+    background-color: white !important;
+    border: 2px inset #0e54ae !important;
+    color: #0e54ae !important;
+}
+
+.appointment:hover>i,
+.appointment:hover>span {
+    color: #0e54ae !important;
+}
 
 ul.social-list {
     margin-bottom: 0 !important;
@@ -30,7 +41,6 @@ ul.social-list {
 ul.social-list>li {
     display: inline-flex;
     min-width: 30px;
-    border-radius: 100%;
     text-align: center;
 }
 
@@ -41,8 +51,48 @@ ul.social-list>li>a {
     text-decoration: none;
 }
 
-ul.social-list>li>a>i {
-    color: black;
+.youtube>a>i {
+    color: #DB4437;
+}
+
+.twitter>a {
+    color: #1DA1F2;
+}
+
+.facebook>a {
+    color: #4267B2;
+}
+
+.snapchat>a {
+    color: #000000;
+}
+
+.instagram>a {
+    color: #C13584;
+}
+
+.youtube>a:hover {
+    background-color: #DB4437;
+}
+
+.snapchat>a:hover {
+    background-color: #d4d100;
+}
+
+.instagram>a:hover {
+    background-color: #C13584;
+}
+
+.twitter>a:hover {
+    background-color: #1DA1F2;
+}
+
+.facebook:hover {
+    background-color: #4267B2;
+}
+
+.white-hover:hover>a>i {
+    color: white !important;
 }
 
 .logo {
@@ -60,6 +110,14 @@ ul.social-list>li>a>i {
     font-weight: 500;
     font-size: large;
     color: white !important;
+}
+
+.nav-item:hover {
+    background-color: #171f49;
+}
+
+.nav-item>a.active {
+    background-color: #171f49;
 }
 
 .overlay {
@@ -228,9 +286,11 @@ ul.social-list>li>a>i {
     }
 }
 
+.footer-list>li {
+    background-color: #1462c7;
+}
 .footer-list>li>a>i {
     color: white !important;
-    background-color: #1462c7;
     padding: 10px;
     margin-left: 0 !important;
 }
